@@ -1,5 +1,88 @@
-.main-section{
-   background-image: url('./images/bg_2.jpg');
-   width: 100%;
-   height: 400px;
+*{
+   padding: 0;
+   margin: 0;
 }
+.main-section{
+   background-image: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(./images/bg_2.jpg);
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top;
+   padding: 30px 60px 30px 60px;
+
+}
+.main-section-header{
+   display: flex;
+}
+.main-section-header-1{
+   flex: 2;
+   display: flex;
+   align-items: center;
+}
+.main-section-header-1 h1{
+   color: #fff;
+   font-size: 20px;
+}
+.main-section-header-2{
+   flex: 3;
+   justify-content: space-evenly;
+   display: flex;
+   align-items: center;
+}
+.main-section-header-2 a:first-child{
+   color: #9AA1A7;
+}
+.main-section-header-2 a:hover{
+   color: #fff;
+   text-decoration: none;
+}
+.main-section-header-2 a:first-child:hover{
+   color: #fff;
+}
+.main-section-header-2 a {
+   color: #fff;
+   text-decoration: none;
+}
+.post-button{
+   padding: 10px;
+   border: none;
+   background-color: #157EFB;
+   border-radius: 5px;
+   color: #fff;
+}
+.want-job-button{
+   padding: 10px;
+   border: none;
+   background-color: #5DD28E;
+   border-radius: 5px;
+   color: #fff;
+}
+.main-section-content{
+   color: #fff;
+   padding: 40px 0 40px 0px;
+}
+.main-section-content p:first-of-type{
+   color: #C8C9CC;
+   font-size: 18px;
+}
+.main-section-content h1:first-of-type{
+   font-size: 40px;
+   font-weight: bold;
+}
+.main-section-content p:nth-of-type(2){
+   font-size: 40px;
+   margin: 0;
+   line-height: 2rem;
+}
+.search-box-section{
+   
+}
+.search-box{
+   background-color: #fff;
+   height: 100px;
+   width: 70%;
+   margin-top: 30px;
+   border-radius: 5px;
+}
+
