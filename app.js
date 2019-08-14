@@ -20,7 +20,8 @@ window.addEventListener('scroll',() => {
         contactLink.classList.add('contact-link--afterScroll');
     }
     else{
-        mainSectionHeader.classList.remove('main-section-header--after-scrolldown');
+    //    mainSectionHeader.classList.remove('main-section-header--after-scrolldown');
+       $('#main-section-header').removeClass('main-section-header--after-scrolldown').css({"top":"-100%"});
         jobPortalHeading.classList.remove('job-portal-heading--afterScoll');
         homeLink.classList.remove('home-link--afterScroll');
         aboutLink.classList.remove('about-link--afterScroll');
