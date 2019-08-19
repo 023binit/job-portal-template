@@ -3,6 +3,15 @@ $( "#post-job" ).click(function() {
     alert( "Handler for .click() called." );
   });
 
+  $(document).ready(function(){
+    $('.toggle--main-section-header-2--content').hide();
+    $("#toggle-button").click(function(){
+      $(".toggle--main-section-header-2--content").slideToggle(1000);
+      $(this).toggleClass("open");
+    });
+  });
+
+
 window.addEventListener('scroll',() => {
     let mainSectionHeader = document.getElementById('main-section-header');
     let jobPortalHeading = document.getElementById('job-portal-heading');
